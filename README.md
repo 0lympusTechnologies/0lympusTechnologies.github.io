@@ -19,4 +19,4 @@ Our product is focused on providing augmented reality (AR) for surgeons to visua
 2. https://github.com/0lympusTechnologies/0lympusTechnologies.github.io
 
 **GitHub Pages Link**
-1. https://0lympustechnologies.github.io/product-page
+1. https://0lympustechnologies.github.io/
