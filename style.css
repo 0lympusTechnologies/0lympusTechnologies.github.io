@@ -1,3 +1,134 @@
-body {
+#profile
+{
+    float:left;
+    width:175px;
+    height:175px;
+    padding:0px;
+}
+.title
+{
+    color: white;
+}
+body
+{
+    background-color: #3aafa9;
+}
+.white-box
+{
+  background-color:#ffffff;
+  height:auto;
+  width:950px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+}
+#buttons
+{
+    background-color: #2B7A78;
+    display: inline-block;
+}
+.btn:hover
+{
+    background-color: #57BABB;
+}
+#active-btn
+{
+    background-color: #57BABB;
+}
+.dropdown-menu
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 0px 0;
+    margin: 0px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: transparent;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.btn-secondary, .dropdown, .dropdown-item
+{
+    background-color: #2B7A78;
+    color: #ffffff;
+}
+footer
+{
+    font-family: times;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+.large_pic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 15px;
+    object-fit: cover;
+}
+figcaption
+{
+    padding-top: 1px;
+    padding-left: 15px;
+    font-size: small;
+}
+.main_text
+{
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#link:link, #link:visited 
+{
+  background-color: #167c4f;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+#link:hover, #link:active 
+{
+  background-color: green;
+}
+#text
+{
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#slide_button
+{
+  background-color: #167c4f;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#slide_button:hover, #slide_button:active
+{
+  background-color: green;
+}
+.slider
+{
+    width:100%;
+}
+.sliders
+{
+    text-align: center;
 }
