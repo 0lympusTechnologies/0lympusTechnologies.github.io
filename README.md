@@ -10,8 +10,8 @@ Our product is focused on providing augmented reality (AR) for surgeons to visua
 1. Devon Knight, 300325369, GitHub: Devcon324, https://github.com/Devcon324
 2. Jean-Marc N’guessan, 300289497, GitHub: JMarco53, https://github.com/JMarco53
 3. Bill Ngo, 300307777, GitHub: TheUncleLake, https://github.com/TheUncleLake
-4. Christa Huang,300297610, GitHub: vinfea, https://github.com/vinfea
-5. Fikunmi Olusanya,	          GitHub: morantjr, https://github.com/morantjr
+4. Christa Huang, 300297610, GitHub: vinfea, https://github.com/vinfea
+5. Fikunmi Olusanya, 300291732, GitHub: morantjr, https://github.com/morantjr
 6. Penghao Yuan, 300283368, GitHub: PenghaoYuan2022, http://github.com/PenghaoYuan2022
 
 **GitHub Organization/Repository Links**
