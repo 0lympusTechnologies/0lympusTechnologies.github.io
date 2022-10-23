@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Futura";
-    src: local("Font/futur.ttf");
+    src: local("resources/Font/futur.ttf");
 }
 @font-face {
     font-family: "Futura Lt BT";
-    src: local("Font/futura light bt.ttf");
+    src: local("resources/Font/futura light bt.ttf");
 }
 * {
     padding: 0;
