@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    padding: 30px;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+div.h {
+    height: 300px;
+    background-image: url("../media/pictures/surgeons.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.a {
+    padding: 20px;
+    margin: 50px;
+    width: 500px;
+    
+}
+
+div.b {
+    padding: 20px;
+    margin: 50px;
+    width: 500px;
+    float: right;
+}
