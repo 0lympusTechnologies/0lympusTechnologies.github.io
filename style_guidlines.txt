@@ -1,0 +1,7 @@
+UX color pallet
+HTML5 Light grey
+HTML5 Dark grey
+HTML5 Black
+Custom Blue: rgb(79, 195, 247)
+
+Index.html using Roboto font due to error retrierving Futura font
