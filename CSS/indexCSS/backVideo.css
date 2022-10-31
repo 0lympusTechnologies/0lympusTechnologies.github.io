@@ -1,7 +1,7 @@
 .back-video{
   position: absolute;
-  z-index: -1;
-
+  overflow-y: hidden;
+  z-index: -5;
 }
 @media (min-aspect-ratio: 16/9){
   .back-video{
