@@ -52,9 +52,9 @@
   transition-duration: 0.5s;
 }
 .content a:hover{
-  -webkit-text-stroke: 1px whitesmoke;
+  -webkit-text-stroke: 1px white;
   transform: scale(1.1);
-  background-color: rgba(79, 195, 247, 0);
+  background-color: rgba(79, 195, 247, 0.7);
   box-shadow: 
   0 3px 5px 0 
   rgba(79, 195, 247, 2), 
