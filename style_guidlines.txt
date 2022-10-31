@@ -1,7 +1,36 @@
+Overall look and feel of Olympus Technologies website
+-----------------------------------------------------
+Since the purpose of our product is to enhance surgeries using augmented reality, the website will
+be clean and modern to imply we are selling professional, cutting-edge technology. 
+
+Colours
+-------
+The web pages will be primarily black, white, and shades of grey, with some saturated blues 
+to add a pop of colour and evoke the blue often found in surgery rooms.
+
 UX color pallet
 HTML5 Light grey
 HTML5 Dark grey
 HTML5 Black
 Custom Blue: rgb(79, 195, 247)
 
-Index.html using Roboto font due to error retrieving Futura font
+Iconography
+-----------
+The Olympus Technologies logo is a stylized blue thunderbolt. Other icons will be simple, flat
+white drawings will strong shape language and will glow blue when the user hovers over them if
+they can be interacted with. 
+
+Typography
+----------
+We will be using the Futura font.
+Index.html is using the Roboto font due to error retrieving Futura font. 
+Fonts will be fixed for consistency. 
+
+Links
+-----
+Links will not be underlined and will change colour when the user hovers over them.
+
+Buttons
+-------
+Buttons will have a transparent background and a solid, rounded border and will glow
+blue when the user hovers over them. 
