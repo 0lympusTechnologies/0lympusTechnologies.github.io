@@ -1,3 +1,6 @@
-.navbar {
-    background-color: aqua;
+.nav-item:hover {
+    color: blue;
+}
+h1 {
+    font-size: 100px;
 }
