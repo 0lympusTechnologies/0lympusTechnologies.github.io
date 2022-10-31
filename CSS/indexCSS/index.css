@@ -2,7 +2,7 @@
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: white;
-  background: darkgray;
+  background: black;
   overflow: hidden;
 }
 .main-content section{
@@ -25,7 +25,7 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  background: darkgray;
+  background: black;
 }
 .custom-shape-divider-top-1667151416 svg {
   position: relative;
@@ -50,13 +50,10 @@
 }
 .L-text-R-img p{
   padding-right: 100px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
-.img-right{
-  display: block;
-  align-items: right;
+.L-text-R-img img{
   width: 30vw;
   height: 30vw;
 }
@@ -68,13 +65,10 @@
 }
 .R-text-L-img p{
   padding-left: 100px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
-.img-left{
-  display: block;
-  align-items: left;
+.R-text-L-img img{
   width: 30vw;
   height: 30vw;
 }
