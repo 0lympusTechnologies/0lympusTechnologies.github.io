@@ -38,25 +38,23 @@
   font-weight: 600;
   transition:  0.3s;
 }
-
 .content a{
   text-decoration: none;
   display: inline-block;
+  background-color: rgba(20,20,20, 0.5);
   color: #fff;
   font-size: 15px;
   border: 2px solid #fff;
   padding: 14px 25px;
   border-radius: 50px;
   margin-top: 20px;
-  transition-property: transform;
-  transition-duration: 1s;
+  transition-property: transform, box-shadow, -webkit-text-stroke, background-color;
+  transition-duration: 0.5s;
 }
 .content a:hover{
-  -webkit-text-stroke: .7px whitesmoke;
-  -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 1px whitesmoke;
   transform: scale(1.1);
-  color: transparent;
-  background-color: rgba(79, 195, 247, 0.3);
+  background-color: rgba(79, 195, 247, 0);
   box-shadow: 
   0 3px 5px 0 
   rgba(79, 195, 247, 2), 
