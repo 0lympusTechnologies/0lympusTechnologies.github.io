@@ -1,12 +1,11 @@
-body{
+.main-content{
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: white;
   background: darkgray;
-  overflow-x: hidden;
+  overflow: hidden;
 }
-
-section{
+.main-content section{
   position: relative;
   display: flex;
   flex-direction: column;
