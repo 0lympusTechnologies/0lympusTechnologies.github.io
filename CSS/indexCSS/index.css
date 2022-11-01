@@ -2,18 +2,9 @@
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: white;
-  background: darkgray;
+  background: black;
   overflow: hidden;
 }
-.main-content section{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  min-height: 400px;
-  padding: 100px 20vw;
-}
-
 .grey{
   background: darkgray;
 }
@@ -25,7 +16,7 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  background: darkgray;
+  background: black;
 }
 .custom-shape-divider-top-1667151416 svg {
   position: relative;
@@ -43,10 +34,15 @@
   color: black;
 }
 
+.main-content section{
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+}
+
 .L-text-R-img{
   display: flex;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 .L-text-R-img p{
   padding-right: 100px;
@@ -54,17 +50,18 @@
   align-items: center;
   justify-content: center;
 }
-.img-right{
+.L-text-R-img img{
   display: block;
   align-items: right;
   width: 30vw;
   height: 30vw;
 }
 
+
 .R-text-L-img{
   display: flex;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 .R-text-L-img p{
   padding-left: 100px;
@@ -72,7 +69,7 @@
   align-items: center;
   justify-content: center;
 }
-.img-left{
+.R-text-L-img img{
   display: block;
   align-items: left;
   width: 30vw;
