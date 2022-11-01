@@ -15,7 +15,7 @@
 .from-right{
   opacity: 0;
   filter: blur(5px);
-  transform: translate(50%);
+  transform: translate(100%);
   transition: all 2s;
 }
 .from-right-show{
@@ -26,7 +26,7 @@
 .from-left{
   opacity: 0;
   filter: blur(5px);
-  transform: translate(-50%);
+  transform: translate(-100%);
   transition: all 2s;
 }
 .from-left-show{

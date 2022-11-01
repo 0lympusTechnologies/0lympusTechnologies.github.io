@@ -34,10 +34,12 @@
   color: black;
 }
 
+
 .main-content section{
   padding-top: 25vh;
   padding-bottom: 25vh;
 }
+
 
 .L-text-R-img{
   display: flex;
@@ -53,8 +55,8 @@
 .L-text-R-img img{
   display: block;
   align-items: right;
-  width: 30vw;
-  height: 30vw;
+  width: 40vw;
+  height: 40vw;
 }
 .R-text-L-img{
   display: flex;
@@ -70,6 +72,24 @@
 .R-text-L-img img{
   display: block;
   align-items: left;
-  width: 30vw;
-  height: 30vw;
+  width: 40vw;
+  height: 40vw;
+}
+
+
+.outerDiv {
+  background-color: #006699;
+  height: 400px;
+  width: 600px;
+  align-items: center;
+}
+.leftDiv {
+  background-color: #efefef;
+  color: #000;
+  float: left;
+}
+.rightDiv {
+  background-color: #efefef;
+  color: #000;
+  float: right;
 }
