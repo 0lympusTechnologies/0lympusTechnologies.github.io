@@ -12,10 +12,13 @@
   padding-top: 50vh;
   padding-bottom: 50vh;
 }
+
+
+
 .from-right{
   opacity: 0;
   filter: blur(5px);
-  transform: translate(50%);
+  transform: translate(100%);
   transition: all 2s;
 }
 .from-right-show{
@@ -23,10 +26,13 @@
   filter: blur(0);
   transform: translate(0);
 }
+
+
+
 .from-left{
   opacity: 0;
   filter: blur(5px);
-  transform: translate(-50%);
+  transform: translate(-100%);
   transition: all 2s;
 }
 .from-left-show{
@@ -47,13 +53,18 @@
 /* for partner logos to animate in */
 .partners{
   display: flex;
+  margin: 0 0.5rem;
+  justify-content: center;
 }
-.partners:nth-child(2){
+.partners img{
+  height: 100px;
+}
+.partner:nth-child(2){
   transition-delay: 200ms;
 }
-.partners:nth-child(3){
+.partner:nth-child(3){
   transition-delay: 400ms;
 }
-.partners:nth-child(4){
+.partner:nth-child(4){
   transition-delay: 600ms;
 }
