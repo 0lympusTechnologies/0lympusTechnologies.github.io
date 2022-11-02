@@ -76,19 +76,11 @@
 }
 
 
-.outerDiv {
-  background-color: #006699;
-  height: 400px;
-  width: 600px;
+.contact-us{
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
-.leftDiv {
-  background-color: #efefef;
-  color: #000;
-  float: left;
-}
-.rightDiv {
-  background-color: #efefef;
-  color: #000;
-  float: right;
+.contact-us div{
+  padding: 10px;
 }
