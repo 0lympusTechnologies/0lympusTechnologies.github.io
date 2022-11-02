@@ -1,6 +1,31 @@
-.nav-item:hover {
-    color: blue;
+::-webkit-scrollbar{
+    width: 15px;
 }
-h1 {
-    font-size: 100px;
+::-webkit-scrollbar-track{
+    background:rgba(0, 0, 0, 0.2)
+}
+::-webkit-scrollbar-thumb{
+    background: #2196f3;
+    border-radius: 10px;
+}
+body{
+    overflow: overlay;
+}
+.rotate_img{
+    transform: rotate(90deg);
+}
+nav .navbar-nav li a:hover{
+    color: #2196f3 !important;
+}
+.fs-1{
+    font-size: 100px !important;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    text-decoration: none;
+}
+footer{
+    color: #000 !important;
 }
