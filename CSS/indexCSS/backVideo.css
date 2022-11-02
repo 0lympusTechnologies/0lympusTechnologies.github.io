@@ -19,8 +19,9 @@
   width: 100%;
   height:  100vh;
   background-image: linear-gradient(
-    rgba(79, 195, 247, 0.30),
-    rgba(79, 195, 247, 0.15));
+    rgba(10,10,10, .5),
+    rgba(10,10,10, .5));
+  background-image:(rgba(10,10,10, 1));
   position: relative;
   padding: 0 0%;
   display: flex;
