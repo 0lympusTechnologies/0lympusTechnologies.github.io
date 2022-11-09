@@ -37,8 +37,16 @@ h2 {
     padding: 30px;
 }
 
+hr {
+    color: aliceblue;
+}
+
 .FAQ-body{
     font-size: 20px;
+}
+
+p {
+    color:antiquewhite
 }
 
 body {
