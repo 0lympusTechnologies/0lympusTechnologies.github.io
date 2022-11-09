@@ -1,8 +1,25 @@
 
-.container{
-    background-color: aliceblue;
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 22px;
+  }
+  .navbar-light .navbar-brand{
+    color: white;
+    font-size: 30px;
+  }
+  #nav-menu a:hover {
+    -webkit-text-stroke: .7px rgb(79, 195, 247);
+    -webkit-text-fill-color: rgb(79, 195, 247);
+  }
+  .navbar-container #company-logo {
+    width: 60px;
+    filter: invert(54%) sepia(83%) saturate(1494%) hue-rotate(154deg) brightness(104%) contrast(106%);
+  }
+  .navbar{
+    transition-property: background-color;
+    transition-duration: 1s;
+  }
 
-}
 .FAQ {
     padding: 30px;
     font-size: 40px;
@@ -10,7 +27,12 @@
     
 }
 
+h1 {
+    position: static;
+}
+
 h2 {
+
     font-size: 30px;
     padding: 30px;
 }
@@ -18,6 +40,9 @@ h2 {
 .FAQ-body{
     font-size: 20px;
 }
-.FAQ{
+
+body {
+    padding-top:70px;
     background-color:black;
 }
+
