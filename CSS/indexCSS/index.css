@@ -54,8 +54,8 @@
 .L-text-R-img img{
   display: block;
   align-items: right;
-  width: 40vw;
-  height: 40vw;
+  width: 100%;
+  height: auto;
 }
 .R-text-L-img{
   display: flex;
@@ -71,8 +71,8 @@
 .R-text-L-img img{
   display: block;
   align-items: left;
-  width: 40vw;
-  height: 40vw;
+  width: 100%;
+  height: auto;
 }
 
 .contact-box{
