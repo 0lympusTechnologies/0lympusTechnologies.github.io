@@ -1,0 +1,60 @@
+/* Contact us section - Devon Knight */
+.contact-title{
+  margin: 0;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.contact-us{
+  margin-bottom: 0;
+  padding-bottom: 5vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-us ul{
+  padding-left: 5vw;
+  padding-right: 5vw; 
+}
+.contact-us a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 14px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition-property: transform, box-shadow, -webkit-text-stroke, background-color;
+  transition-duration: 0.5s;
+}
+.contact-us a:hover{
+  -webkit-text-stroke: 1px white;
+  transform: scale(1.1);
+  background-color: rgba(79, 195, 247, 0.7);
+  box-shadow: 
+  0 3px 5px 0 
+  rgba(79, 195, 247, 2), 
+  0 3px 30px 0 
+  rgba(79, 195, 247, 2);
+}
+
+.copyright{
+  background-color: black;
+  color: white;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.copyright-content li
+{
+  padding-right: 10pt;
+  display:inline-block;
+}
+.copyright-content a{
+  color: white;
+  text-decoration: none;
+}

@@ -1,3 +1,4 @@
+/* CSS for idnex Devon Knight*/
 .main-content{
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -27,26 +28,28 @@
   fill: #18406E;
 }
 
-
+/* text style- Devon Knight */
 .text{
   background-color: lightgray;
   color: black;
 }
 
-
+/* all main homepage content formats in sections - Devon Knight */
 .main-content section{
-  padding-top: 25vh;
-  padding-bottom: 25vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
-
+/* CSS animations for content - Devon Knight */
+/* left-side image + right-side text - Devon Knight */
 .L-text-R-img{
   display: flex;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-left: 5px;
 }
 .L-text-R-img p{
-  padding-right: 100px;
+  padding-right: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,16 +57,17 @@
 .L-text-R-img img{
   display: block;
   align-items: right;
-  width: 40vw;
-  height: 40vw;
+  width: 200%;
+  max-width: 300px;
+  height: auto;
 }
+/* left-side text + right-side image - Devon Knight */
 .R-text-L-img{
   display: flex;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 5px;
 }
 .R-text-L-img p{
-  padding-left: 100px;
+  padding-left: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,20 +75,8 @@
 .R-text-L-img img{
   display: block;
   align-items: left;
-  width: 40vw;
-  height: 40vw;
+  width: 200%;
+  max-width: 300px;
+  height: auto;
 }
 
-.contact-box{
-  padding-bottom: 5vw;
-  background-color: black;
-}
-.contact-us{
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-.contact-us div{
-  padding-left: 5vw;
-  padding-right: 5vw; 
-}

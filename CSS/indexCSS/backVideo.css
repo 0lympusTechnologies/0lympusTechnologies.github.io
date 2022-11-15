@@ -1,7 +1,13 @@
+/* Video content style - Devon Knight */
+body{
+  overflow-x: hidden;
+}
+/* Video placed in background - Devon Knight */
 .back-video{
   position: absolute;
   z-index: -5;
 }
+/* Video aspect ratio on different screen sizes - Devon Knight */
 @media (min-aspect-ratio: 16/9){
   .back-video{
     width: 100%;
@@ -15,12 +21,13 @@
   }
 }
 
+/* overlayed content - Devon Knight */
 .video-front-content{
   width: 100%;
   height:  100vh;
   background-image: linear-gradient(
-    rgba(10,10,10, .5),
-    rgba(10,10,10, .5));
+    rgba(10,10,10, 0.25),
+    rgba(79, 195, 247, 0.15));
   background-image:(rgba(10,10,10, 1));
   position: relative;
   padding: 0 0%;
@@ -39,6 +46,7 @@
   font-weight: 600;
   transition:  0.3s;
 }
+/* buttons - Devon Knight */
 .content a{
   text-decoration: none;
   display: inline-block;
