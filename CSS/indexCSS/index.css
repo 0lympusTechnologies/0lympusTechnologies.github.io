@@ -77,16 +77,3 @@
   height: auto;
 }
 
-.contact-box{
-  padding-bottom: 5vw;
-  background-color: black;
-}
-.contact-us{
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-.contact-us div{
-  padding-left: 5vw;
-  padding-right: 5vw; 
-}
