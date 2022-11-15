@@ -25,6 +25,7 @@
   justify-content: center
 }
 .contact-new{
+  margin-bottom: 0;
   padding-bottom: 5vw;
   background-color: black;
   display: flex;
@@ -56,6 +57,19 @@
   0 3px 30px 0 
   rgba(79, 195, 247, 2);
 }
+
 .copyright{
-  
+  background-color: black;
+  color: white;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.copyright-content li
+{
+  padding-right: 10pt;
+  display:inline-block;
+}
+.copyright-content a{
+  color: white;
+  text-decoration: none;
 }
