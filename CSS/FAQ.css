@@ -31,6 +31,7 @@ h1 {
     position: static;
 }
 
+
 h2 {
 
     font-size: 30px;
@@ -54,3 +55,34 @@ body {
     background-color: rgb(34, 37, 41);
 }
 
+.search_bar{
+  float:right;
+  margin:6px;
+  overflow: hidden;
+}
+
+.search_bar input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-right: 16px;
+  font-size: 18px;
+  border: none;
+  margin-top: 0px;
+
+}
+
+.search_bar button {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.search_bar button:hover {
+  background: darkcyan
+}
