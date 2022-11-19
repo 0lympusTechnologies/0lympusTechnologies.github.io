@@ -1,4 +1,12 @@
 /* CSS for idnex Devon Knight*/
+@font-face {
+  font-family: "Futura";
+  src: local("resources/Font/futur.ttf");
+}
+@font-face {
+  font-family: "Futura Lt BT";
+  src: local("resources/Font/futura light bt.ttf");
+}
 .main-content{
   font-family: 'Roboto', sans-serif;
   color: white;
