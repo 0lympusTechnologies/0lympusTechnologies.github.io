@@ -71,18 +71,3 @@ body {
 
 }
 
-.search_bar button {
-  float: right;
-  width: 20%;
-  padding: 10px;
-  background: black;
-  color: white;
-  font-size: 15px;
-  border: none;
-  border-left: none;
-  cursor: pointer;
-}
-
-form.search_bar button:hover {
-  background: darkcyan
-}
