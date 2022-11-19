@@ -1,34 +1,112 @@
+/* Navbar */
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background:rgba(0, 0, 0, 0.2)
+}
+
+::-webkit-scrollbar-thumb{
+    background: #2196f3;
+    border-radius: 10px;
+}
+
+nav .navbar-nav li a:hover{
+    color: #2196f3 !important;
+}
+
+/* Body */
 body {
     background-color: black;
     color: white;
 }
 
+body, html {
+    height: 100%;
+}
+
 h1 {
     padding: 30px;
-    font-size: 60px;
+    font-size: 100px;
 }
 
 h2 {
     font-size: 40px;
+    text-align: center;
 }
 
-div.h {
-    height: 300px;
-    background-image: url("../media/pictures/surgeons.jpeg");
-    background-attachment: fixed;
+p {
+    font-size: 20px;
+}
+
+/* Hero Image */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/pictures/city.jpeg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
-div.a {
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Button */
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(20,20,20, 0.5);
+    color: #fff;
+    font-size: 15px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition-property: transform, box-shadow, -webkit-text-stroke, background-color;
+    transition-duration: 0.5s;
+  }
+
+  .button a:hover{
+    -webkit-text-stroke: 1px white;
+    transform: scale(1.1);
+    background-color: rgba(79, 195, 247, 0.7);
+    box-shadow: 
+    0 3px 5px 0 
+    rgba(79, 195, 247, 2), 
+    0 3px 30px 0 
+    rgba(79, 195, 247, 2);
+  }
+
+/* Content */
+.left {
+    border: solid 5px;
+    border-color: white;
+    background-color: rgba(0, 191, 255, 0.4);
+    border-radius: 15px;
     padding: 20px;
     margin: 50px;
     width: 500px;
     
 }
 
-div.b {
+.right {
+    border: solid 5px;
+    border-color: white;
+    background-color: rgba(0, 191, 255, 0.4);
+    border-radius: 10px;
     padding: 20px;
     margin: 50px;
     width: 500px;
     float: right;
 }
+
