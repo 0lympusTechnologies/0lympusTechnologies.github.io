@@ -91,6 +91,10 @@
 }*/
 
 /* CSS for Homepage Nav-bar - Devon Knight */
+.navbar-toggler{
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
 .navbar-light .navbar-nav .nav-link{
   color: white;
   font-size: 22px;
@@ -110,4 +114,5 @@
 .navbar{
   transition-property: background-color;
   transition-duration: 1s;
+  z-index: 99999;
 }
