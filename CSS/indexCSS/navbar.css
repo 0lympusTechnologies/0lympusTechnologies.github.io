@@ -103,9 +103,14 @@
   color: white;
   font-size: 30px;
 }
-#nav-menu a:hover {
-  -webkit-text-stroke: .7px rgb(79, 195, 247);
-  -webkit-text-fill-color: rgb(79, 195, 247);
+.navbar-brand:hover{
+  -webkit-text-stroke: .7px rgb(79, 195, 247) !important;
+  -webkit-text-fill-color: rgb(79, 195, 247) !important;
+}
+.navbar-nav > li > a:hover, 
+.navbar-nav > li > a:focus {
+  -webkit-text-stroke: .7px rgb(79, 195, 247) !important;
+  -webkit-text-fill-color: rgb(79, 195, 247) !important;
 }
 .navbar-container #company-logo {
   width: 60px;
