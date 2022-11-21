@@ -29,17 +29,17 @@
 
 h1 {
     position: static;
+    font-size: 35px;
 }
 
 
 h2 {
-
-    font-size: 30px;
-    padding: 30px;
+  font-size: 30px;
+  padding: 30px;
 }
 
 hr {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .FAQ-body{
@@ -68,21 +68,5 @@ body {
   font-size: 18px;
   border: none;
   margin-top: 0px;
-
 }
 
-.search_bar button {
-  float: right;
-  width: 20%;
-  padding: 10px;
-  background: black;
-  color: white;
-  font-size: 15px;
-  border: none;
-  border-left: none;
-  cursor: pointer;
-}
-
-form.search_bar button:hover {
-  background: darkcyan
-}
