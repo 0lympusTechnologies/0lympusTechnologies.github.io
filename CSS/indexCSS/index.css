@@ -61,6 +61,17 @@
   max-width: 100%;
   height: auto;
 }
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .L-text-R-img p, .L-text-R-img img {
+    width: 100%;
+  }
+}
+
+
+
+
 /* left-side text + right-side image - Devon Knight */
 .R-text-L-img{
   display: flex;
