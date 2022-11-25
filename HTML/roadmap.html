@@ -4,88 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap for navbar -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
     crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="../CSS/roadmap.css">
     <title>The Future of Zeus</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Navbar -->   
+    <nav class="navbar navbar-expand-lg navbar-light  bg-transparent fixed-top p-md-3">
         <div class="container">
-            <a href="#" class="navbar-brand">
+            <a href="../index.html" class="navbar-brand fw-bold">
                 <img src="https://svgsilh.com/svg/305692-2196f3.svg" alt="Lightning bolt" 
                 width="75" height="30" class="d-inline-block align-text-top fs-1">
-                0LYMPUS
+                <span style="color: rgb(79, 195, 247)">0</span>LYMPUS
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse"></div>
             <div class="collapse navbar-collapse" id="nav-menu">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto fw-bold">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="productFeatures.html" class="nav-link">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#features" class="nav-link">Features</a>
+                        <a href="roadmap.html" class="nav-link">Roadmap</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#pricing" class="nav-link">Pricing</a>
+                        <a href="pricing.html" class="nav-link">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#team" class="nav-link">Team</a>
+                        <a href="team.html" class="nav-link">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#faq" class="nav-link">FAQ</a>
+                        <a href="faq.html" class="nav-link">FAQ</a>
                     </li>
             </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-    crossorigin="anonymous"></script>   
 
-    <div class="h"></div>
-    
-    <h1 style="text-align:center;">The Future of Zeus</h1>
+    <!-- Hero -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>The Future of Zeus</h1>
+            <div class="button">
+                <a class="innerbutton" href="#body">Our Vision</a>
+            </div>
+        </div>
+    </div>
 
-    <div class="a">
-        <h2>First Heading</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum 
-            at tempor commodo. At in tellus integer feugiat scelerisque varius morbi. 
-            Vestibulum morbi blandit cursus risus at ultrices mi tempus. In metus vulputate 
-            eu scelerisque felis imperdiet. Senectus et netus et malesuada fames ac turpis. 
-            Diam in arcu cursus euismod quis. Vel pharetra vel turpis nunc eget lorem dolor. 
-            Aliquet lectus proin nibh nisl condimentum id venenatis. Nibh nisl condimentum 
-            id venenatis. Habitant morbi tristique senectus et netus et malesuada. Eu 
-            augue ut lectus arcu bibendum at. Elementum tempus egestas sed sed risus 
-            pretium.
-        </p>
+    <!-- Content -->
+    <div id="body" class="bg-dark">
+        <div class="img-right">
+            <img src="../media/pictures/5g.jpg" alt="5G map with lights" style="width:60%;height:auto">
+        </div>
+        <div class="text-left">
+            <div class="text-bubble">
+                <h2>5G</h2>
+                <p>
+                    With the expansion of 5G technology, the Zeus system can be combined with virtual 
+                    reality to perform surgery from overseas.
+                </p>
+                <p>
+                    The biggest improvement 5G provides is reduced latency of under 5 milliseconds. 
+                    As 5G is gradually deployed worldwide, we can see this high-speed data transfer 
+                    being used to send surgery information in real time, from one operating room to 
+                    another.
+                </p>
+            </div>
+        </div>
+        
+        <div class="text-right">
+            <div class="text-bubble">
+                <h2>Da Vinci Robot and Hardware</h2>
+                <p>
+                    The Da Vinci Robot is a surgical system installed in hospitals worldwide which 
+                    can be used to perform a variety of procedures. Currently, the surgeon must be 
+                    controlling the robot in person, meaning they must be in the same room as the 
+                    patient. By combining the Zeus system with virtual reality hardware, like the 
+                    Oculus Pro, surgeons can perform operations in a virtual environment, sending 
+                    commands to the da vinci robot and receiving surgery information in real time. 
+                </p>
+            </div>
+        </div>
+        <div class="img-left">
+            <img src="../media/pictures/oculus.jpg" alt="Oculus Pro Headset" style="width: 70%;height:auto">
+        </div>
+
+        <div class="img-right">
+            <img src="../media/pictures/surgeon.jpg" alt="Surgeons and Da Vinci robot" style="width:80%;height:auto">
+        </div>
+        <div class="text-left">
+            <div class="text-bubble">
+                <h2>Predicting Movement With Infrared</h2>
+                <p>
+                    5G solves the latency issues involved with performing surgery from overseas. 
+                    However, we can improve the seamlessness and safety of the procedure by using 
+                    infrared sensors to track and predict the surgeon’s movements, sending 
+                    commands to the Da Vinci robot in advance. This additional refinement is the 
+                    standard for our development team and takes the Zeus system from practical 
+                    to the ideal means of remote surgery. 
+                </p>
+            </div>
+        </div>
     </div>
     
-    <div class="b">
-        <h2>Second Heading</h2>
-        <p>
-            Nam at lectus urna duis convallis convallis tellus id interdum. Vitae et leo 
-            duis ut diam quam. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. 
-            Fringilla urna porttitor rhoncus dolor purus non enim praesent elementum. In eu 
-            mi bibendum neque egestas congue quisque egestas diam. Facilisi cras fermentum 
-            odio eu feugiat. Nunc sed blandit libero volutpat sed cras. Molestie nunc non 
-            blandit massa enim nec. Adipiscing elit pellentesque habitant morbi tristique. 
-            Non tellus orci ac auctor augue mauris augue. Sem et tortor consequat id. Orci 
-            porta non pulvinar neque. Ullamcorper velit sed ullamcorper morbi tincidunt 
-            ornare massa. At varius vel pharetra vel turpis nunc. Est ultricies integer 
-            quis auctor elit sed vulputate mi. Varius morbi enim nunc faucibus a 
-            pellentesque sit. Massa enim nec dui nunc mattis enim ut tellus. Amet nulla 
-            facilisi morbi tempus iaculis urna. Faucibus purus in massa tempor nec feugiat 
-            nisl pretium.
-        </p>
-    </div>
-    
+    <!-- Script for Navbar -->
+    <script src="../JavaScript/index/navShade.js"></script>  
 </body>
 </html>
