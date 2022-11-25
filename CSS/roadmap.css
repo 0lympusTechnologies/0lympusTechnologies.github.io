@@ -1,19 +1,27 @@
 /* Navbar */
-::-webkit-scrollbar{
-    width: 15px;
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 22px;
 }
-
-::-webkit-scrollbar-track{
-    background:rgba(0, 0, 0, 0.2)
+  
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 30px;
 }
-
-::-webkit-scrollbar-thumb{
-    background: #2196f3;
-    border-radius: 10px;
+  
+#nav-menu a:hover {
+    -webkit-text-stroke: .7px rgb(79, 195, 247);
+    -webkit-text-fill-color: rgb(79, 195, 247);
 }
-
-nav .navbar-nav li a:hover{
-    color: #2196f3 !important;
+  
+.navbar-container #company-logo {
+    width: 60px;
+    filter: invert(54%) sepia(83%) saturate(1494%) hue-rotate(154deg) brightness(104%) contrast(106%);
+}
+  
+.navbar {
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 
 /* Body */
@@ -38,14 +46,13 @@ h2 {
 
 p {
     font-size: 20px;
+    padding-top: 10px;
 }
 
-/* Hero Image */
+/* Hero */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/pictures/city.jpeg");
-
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/pictures/city.jpg");
     height: 100%;
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +81,7 @@ p {
     margin-top: 20px;
     transition-property: transform, box-shadow, -webkit-text-stroke, background-color;
     transition-duration: 0.5s;
-  }
+}
 
   .button a:hover{
     -webkit-text-stroke: 1px white;
@@ -85,28 +92,51 @@ p {
     rgba(79, 195, 247, 2), 
     0 3px 30px 0 
     rgba(79, 195, 247, 2);
-  }
+}
 
 /* Content */
-.left {
+.text-left {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bubble {
     border: solid 5px;
     border-color: white;
     background-color: rgba(0, 191, 255, 0.4);
     border-radius: 15px;
-    padding: 20px;
-    margin: 50px;
-    width: 500px;
-    
+    padding: 30px;
+    width: 500px;   
 }
 
-.right {
-    border: solid 5px;
-    border-color: white;
-    background-color: rgba(0, 191, 255, 0.4);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 50px;
-    width: 500px;
+.img-right {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: right;
 }
+
+.text-right {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.img-left {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
