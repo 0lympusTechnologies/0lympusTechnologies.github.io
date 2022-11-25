@@ -20,7 +20,9 @@
 .contact-us ul{
   padding-left: 5vw;
   padding-right: 5vw; 
+  list-style-type: none; /* Remove bullets */
 }
+
 .contact-us a{
   color: white;
   text-decoration: none;
