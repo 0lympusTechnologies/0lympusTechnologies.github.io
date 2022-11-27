@@ -13,19 +13,23 @@
   color: white;
   font-size: 30px;
 }
+/* Nav Bar responsive - Devon Knight */
 .navbar-brand:hover{
   -webkit-text-stroke: .7px rgb(79, 195, 247) !important;
   -webkit-text-fill-color: rgb(79, 195, 247) !important;
 }
+/* Nav Bar responsive to current page - Devon Knight */
 .navbar-nav > li > a:hover, 
 .navbar-nav > li > a:focus {
   -webkit-text-stroke: .7px rgb(79, 195, 247) !important;
   -webkit-text-fill-color: rgb(79, 195, 247) !important;
 }
+/* Nav Bar company logo size - Devon Knight */
 .navbar-container #company-logo {
   width: 60px;
   filter: invert(54%) sepia(83%) saturate(1494%) hue-rotate(154deg) brightness(104%) contrast(106%);
 }
+/* Nav Bar Responsive to scrolling - Devon Knight */
 .navbar{
   transition-property: background-color;
   transition-duration: 1s;
