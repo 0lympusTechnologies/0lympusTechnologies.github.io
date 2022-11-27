@@ -36,8 +36,8 @@
 
 /* all main homepage content formats in sections - Devon Knight */
 .main-content section{
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   padding-left: 5vw;
   padding-right: 5vw;
 }
@@ -58,9 +58,9 @@
 .L-text-R-img img{
   display: block;
   align-items: right;
-  min-width: 25vw;
+  min-width: 25vh;
   max-width: 40vw;
-  max-height: auto;
+  max-height: 25rem;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -71,19 +71,18 @@
     padding-left: 5px;
   }
   .L-text-R-img p{
-    font-size: small;
     padding-right: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .L-text-R-img img{
-    display: block;
+    margin-left: 20vw;
     align-items: right;
-    min-width: 75vw;
+    min-width: 50vw;
     max-width: 25vw;
     min-height: 50vw;
-    max-height: 100vw;
+    max-height: 50vw;
   }
 }
 
@@ -110,9 +109,8 @@
 .R-text-L-img img{
   display: block;
   align-items: left;
-  min-width: 20%;
-  max-width: 100%;
-  height: auto;
+  min-width: 220px;
+  min-height: 200px;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -129,15 +127,14 @@
     padding-left: 5px;
   }
   .R-text-L-img p{
-    font-size: small;
     padding-right: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .R-text-L-img img{
-    margin-left: 25vw;
-    align-items: right;
+    margin-left: 30vw;
+    align-items: center;
     min-width: 25vw;
     max-width: 25vw;
     min-height: 25vw;
