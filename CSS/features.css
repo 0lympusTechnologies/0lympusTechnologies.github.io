@@ -55,3 +55,8 @@ body, html {
 }
 
 /* Features */
+
+/* Footer - workaround to remove bullet points */
+ul.no-bp{
+    list-style-type: none; /* Remove bullets */
+}
