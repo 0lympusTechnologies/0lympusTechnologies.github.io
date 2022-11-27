@@ -4,9 +4,11 @@ const observer = new IntersectionObserver((entries) => {
     if (element.isIntersecting) {
       element.target.classList.add('from-right-show');
     }
+    /*
+    will restart the animation whenever use does nto view element
     else {
       element.target.classList.remove('from-right-show');
-    }
+    }*/
   });
 })
 
@@ -21,9 +23,11 @@ const observer2 = new IntersectionObserver((entries) => {
     if (element.isIntersecting) {
       element.target.classList.add('from-left-show');
     }
+    /*
+    will restart the animation whenever use does nto view element
     else {
       element.target.classList.remove('from-left-show');
-    }
+    }*/
   });
 })
 

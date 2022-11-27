@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center
 }
+/* Contact Us Buttons - Devon Knight */
 .contact-us{
   margin-bottom: 0;
   padding-bottom: 5vw;
@@ -20,14 +21,13 @@
 .contact-us ul{
   padding-left: 5vw;
   padding-right: 5vw; 
-  list-style-type: none; /* Remove bullets */
+  list-style-type: none; /* Remove bullets - Devon Knight*/
 }
-
 .contact-us a{
   color: white;
   text-decoration: none;
   display: inline-block;
-  border: 0.1em solid #fff;
+  border: 2px solid #fff;
   padding: 14px 20px;
   border-radius: 50px;
   margin-top: 20px;
@@ -46,7 +46,7 @@
 }
 
 @media only screen and (max-width: 1080px) {
-  /* For mobile phones: */
+  /* For mobile phones - Devon Knight */
   .contact-us{
     margin-bottom: 0;
     padding-bottom: 5vw;
@@ -84,17 +84,7 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* Copyright Section - Devon Knight */
 .copyright{
   background-color: black;
   color: white;
