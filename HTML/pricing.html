@@ -1,285 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="..\CSS\pricing.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <title>Pricing</title>
-    <!-- index specific cSS -->
-    <link rel="stylesheet" href="CSS/indexCSS/animate.css">
-    <link rel="stylesheet" href="CSS/indexCSS/navbar.css">
-    <link rel="stylesheet" href="CSS/indexCSS/index_sliders.css">
-    <link rel="stylesheet" href="CSS/indexCSS/index.css">
-    <link rel="stylesheet" href="CSS/indexCSS/backVideo.css">
-    <link rel="stylesheet" href="CSS/indexCSS/footer.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+  <!-- bootstrap for navbar -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" 
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+  crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <!-- Webpage Title and favicon-->
+  <title>Pricing</title>
+  <link rel="icon" type="image/x-icon" href="https://svgsilh.com/svg/305692-2196f3.svg"">
+    
+  <!-- Reference CSS -->
+  <link rel="stylesheet" href="../CSS\Pricing.css">
+  <link rel="stylesheet" href="../CSS/indexCSS/navbar.css"> 
+  <link rel="stylesheet" href="../CSS/indexCSS/footer.css">
+    
 </head>
 <body>
-    <!-- Navbar Section - Devon Knight -->
-  <nav class="navbar navbar-expand-lg navbar-light  bg-transparent fixed-top p-md-3 text-light">
+   <!-- Navbar Section - Devon Knight -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top p-md-3">
     <div class="container">
-        <a href="index.html" class="navbar-brand fw-bold">
-          <img src="https://svgsilh.com/svg/305692-2196f3.svg" alt="Lightning bolt" 
-          width="75" height="30" class="d-inline-block align-text-top fs-1">
-          <span style="color: rgb(79, 195, 247)">0</span>LYMPUS
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nav-menu">
-          <ul class="navbar-nav ms-auto fw-bold">
-            <li class="nav-item">
-              <a href="HTML\productFeatures.html" class="nav-link">Features</a>
-            </li>
-            <li class="nav-item">
-              <a href="HTML\roadmap.html" class="nav-link">Roadmap</a>
-            </li>
-            <li class="nav-item">
-              <a href="HTML\pricing.html" class="nav-link">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a href="HTML\team.html" class="nav-link">Team</a>
-            </li>
-            <li class="nav-item">
-              <a href="HTML\faq.html" class="nav-link">FAQ</a>
-            </li>
-        </div>
+      <a href="../index.html" class="navbar-brand fw-bold">
+        <img src="https://svgsilh.com/svg/305692-2196f3.svg" alt="Lightning bolt" 
+        width="30" height="30" class="d-inline-block align-text-top fs-1">
+        <span style="color: rgb(79, 195, 247)">0</span>LYMPUS
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto fw-bold fs-4 ps-md-3">
+          <li class="nav-item">
+            <a href="productFeatures.html" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="roadmap.html" class="nav-link">Roadmap</a>
+          </li>
+          <li class="nav-item">
+            <a href="pricing.html" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="team.html" class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="faq.html" class="nav-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-    <section class="bg-dark">
-        <div class="container py-5">
-      
-          <!-- FOR DEMO PURPOSE -->
-          <header class="text-center mb-5 text-white">
+  <!-- Hero -->
+  <div style="height:95vh; padding-top: 15vh;" class="bg-dark text-light text-center mw-100 d-flex flex-column justify-content-center" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="fs-1 fw-bold text-center text-uppercase">GET ZEUS</h1>
+            </div>
+        </div>
             <div class="row">
-              <div class="col-lg-7 mx-auto">
-                <h1>Olympus Technologies</h1>
-                <p> Everything you need to satisfy your needs with our latest product<br> <a href="Calculate your cost and benefits" class="text-reset">Calculate your cost and benefits</a></p>
-              </div>
-            </div>
-          </header>
-          <!-- END -->
-      
-      
-      
-          <div class="row text-center align-items-end">
-            <!-- Pricing Table-->
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="bg-white p-5 rounded-lg shadow">
-                <h1 class="h6 text-uppercase font-weight-bold mb-4">Starter/Three Month Trial</h1>
-                <h2 class="h1 font-weight-bold">$120<span class="text-small font-weight-normal ml-2"> For three months</span></h2>
-      
-                <div class="custom-separator my-4 mx-auto bg-primary"></div>
-      
-                <ul class="list-unstyled my-5 text-small text-left">
-                  <li class="mb-3">
-                    <i class="fa fa-check mr-2 text-primary"></i>Zeus future package</li>
-                  <li class="mb-3">
-                    <i class="fa fa-check mr-2 text-primary"></i>Up to 50+ Unlimited features linked with Zeus augmented reality</li>
-                  <li class="mb-3">
-                    <li class="mb-3 text-muted">
-                        <i class="fa fa-times mr-2"></i>
-                        <del>Updates on latest softwares</del>
-                    </li>
-                    <li class="mb-3 text-muted">
-                      <i class="fa fa-times mr-2"></i>
-                        <del>warranty</del>
-                  </li>
-                  <li class="mb-3 text-muted">
-                    <i class="fa fa-times mr-2"></i>
-                    <del>Returns</del>
-                  </li>
-                  <li class="mb-3 text-muted">
-                    <i class="fa fa-times mr-2"></i>
-                    <del>Monhtly customer service with our employees</del>
-                  </li>
-                  <li class="mb-3 text-muted">
-                    <i class="fa fa-times mr-2"></i>
-                    <del>Access to Olympus Rewards</del>
-                </ul>
-                <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
-              </div>
-            </div>
-            <!-- END -->
-      
-      
-            <!-- Pricing Table-->
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="bg-white p-5 rounded-lg shadow">
-                <h1 class="h6 text-uppercase font-weight-bold mb-4">Pro</h1>
-                <h2 class="h1 font-weight-bold">$500<span class="text-small font-weight-normal ml-2">/ month</span></h2>
-      
-                <div class="custom-separator my-4 mx-auto bg-primary"></div>
-      
-                <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
-                  <li class="mb-3">
-                    <i class="fa fa-check mr-2 text-primary"></i>Zeus future package</li>
-                  <li class="mb-3">
-                    <i class="fa fa-check mr-2 text-primary"></i>Up to 50+ Unlimited features linked with Zeus augmented reality</li>
-                  <li class="mb-3">
-                    <i class="fa fa-check mr-2 text-primary"></i>Updates on the latest softwares</li>
-                  <li class="mb-3">
-                    <i class="fa fa-check mr-2 text-primary"></i>Warranty</li>
-                  <li class="mb-3">
-                    <i class="fa fa-check mr-2 text-primary"></i>Returns</li>
-                  <li class="mb-3 text-muted">
-                    <i class="fa fa-times mr-2"></i>
-                    <del>Monthly customer service with our employees</del>
-                    <li class="mb-3 text-muted">
-                        <i class="fa fa-times mr-2"></i>
-                        <del>Access to Olympus Rewards</del>
-                </li>
-                </ul>
-                <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
-              </div>
-            </div>
-            <!-- END -->
-      
+                <div class="col-md-12 pt-md-5 scroll">
+                    <a href="#pricing" class="scroll-btn">
+                        <svg style="color: #2196f3;" xmlns="http://www.w3.org/2000/svg" width="200" height="272" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>  
+    </div>
+  </div>
 
-        
-        
-              <!-- Pricing Table-->
-              <div class="col-lg-4">
-                <div class="bg-white p-5 rounded-lg shadow">
-                  <h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
-                  <h2 class="h1 font-weight-bold">$3500<span class="text-small font-weight-normal ml-2">/Year</span></h2>
-        
-                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
-        
-                  <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Zeus future package</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Up to 50+ Unlimited features linked with Zeus augmented reality</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Updates on the latest softwares</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i> Warranty</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Returns</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i> Monthly customer service with our employees</li>
-                      <li class="mb-3 text-muted">
-                        <i class="fa fa-times mr-2"></i>
-                        <del>Access to Olympus Rewards</del>
-                    </ul>
-                  <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
-                </div>
-              </div>
-              <!-- END -->
-        
-        
-             
-            
-            
-            <!-- Pricing Table-->
-              <div class="col-lg-4 mt-md-2">
-                <div class="bg-white p-5 rounded-lg shadow">
-                  <h1 class="h6 text-uppercase font-weight-bold mb-4">Premium</h1>
-                  <h2 class="h1 font-weight-bold">$5000<span class="text-small font-weight-normal ml-2">/Year</span></h2>
-        
-                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
-        
-                  <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Zeus future package</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Up to 50+ Unlimited features linked with Zeus augmented reality</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Updates on the latest softwares</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Warranty</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Returns</li>
-                    <li class="mb-3">
-                      <i class="fa fa-check mr-2 text-primary"></i>Monthly customer service with our employees</li>
-                      <li class="mb-3">
-                        <i class="fa fa-check mr-2 text-primary"></i>Access to Olympus Rewards</li>
-                    </ul>
-                  <li<a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
-                </div>
-              </div>
-              <!-- END -->
+
+
+
+
+
+  <section class="bg-dark">
+  <div class="container py-5">
+    <div id="pricing" class="row text-center align-items-end">
       
+      
+      
+      
+      <!-- Pricing Table-->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Starter/Three Month Trial</h1>
+          <h2 class="h1 font-weight-bold">$120<span class="text-small font-weight-normal ml-2"> For three months</span></h2>
+
+          <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+          <ul class="list-unstyled my-5 text-small text-left">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Zeus future package</li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Up to 50+ Unlimited features linked with Zeus augmented reality</li>
+            <li class="mb-3">
+              <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Updates on latest softwares</del>
+              </li>
+              <li class="mb-3 text-muted">
+                <i class="fa fa-times mr-2"></i>
+                  <del>warranty</del>
+            </li>
+            <li class="mb-3 text-muted">
+              <i class="fa fa-times mr-2"></i>
+              <del>Returns</del>
+            </li>
+            <li class="mb-3 text-muted">
+              <i class="fa fa-times mr-2"></i>
+              <del>Monhtly customer service with our employees</del>
+            </li>
+            <li class="mb-3 text-muted">
+              <i class="fa fa-times mr-2"></i>
+              <del>Access to Olympus Rewards</del>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+        </div>
+      </div>
+      <!-- END -->
+
+
+      <!-- Pricing Table-->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h1 class="h6 text-uppercase font-weight-bold mb-4">Pro</h1>
+          <h2 class="h1 font-weight-bold">$500<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+
+          <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+          <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Zeus future package</li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Up to 50+ Unlimited features linked with Zeus augmented reality</li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Updates on the latest softwares</li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Warranty</li>
+            <li class="mb-3">
+              <i class="fa fa-check mr-2 text-primary"></i>Returns</li>
+            <li class="mb-3 text-muted">
+              <i class="fa fa-times mr-2"></i>
+              <del>Monthly customer service with our employees</del>
+              <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Access to Olympus Rewards</del>
+          </li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+        </div>
+      </div>
+      <!-- END -->
+
+
+
+
+        <!-- Pricing Table-->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="bg-white p-5 rounded-lg shadow">
+            <h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
+            <h2 class="h1 font-weight-bold">$3500<span class="text-small font-weight-normal ml-2">/Year</span></h2>
+
+            <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+            <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Zeus future package</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Up to 50+ Unlimited features linked with Zeus augmented reality</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Updates on the latest softwares</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i> Warranty</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Returns</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i> Monthly customer service with our employees</li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Access to Olympus Rewards</del>
+              </ul>
+            <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
           </div>
         </div>
-      </section>
-      <footer>
-        <h1 style="text-align:center" class="contact-title">Contact Us</h1> 
-        <ul class="contact-us">
-          <ul>
-            <li>
-              <a href="">Get 0lympus</a>
-            </li>
-            <li>
-              <a href="">Our Future</a>
-            </li>
-            <li>
-              <a href="">Partners</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a href="">info@0lympus.com</a>
-            </li>
-            <li>
-              <a href="">1-800-111-1111</a>
-            </li>
-            <li>
-              <a href="">FAQ</a>
-            </li>
-          </ul>
-            <ul>
-              <li>
-                <a href="">Our Company</a>
-              </li>
-              <li>
-                <a href="">Our Team</a>
-              </li>
-              <li>
-                <a href="">Careers</a>
-              </li>
-            </ul>
+        <!-- END -->
 
-          </ul>
+      <!-- Pricing Table-->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="bg-white p-5 rounded-lg shadow">
+            <h1 class="h6 text-uppercase font-weight-bold mb-4">Premium</h1>
+            <h2 class="h1 font-weight-bold">$5000<span class="text-small font-weight-normal ml-2">/Year</span></h2>
 
+            <div class="custom-separator my-4 mx-auto bg-primary"></div>
 
-        <!-- Copyright Bar - Devon Knight -->
-        <div class="copyright">
-          <div>Copyright © 2022 0lympus Technologies</div>
-            <div >
-              <ul class="copyright-content">
-                <li>
-                  <a href="" >Legal</a>
-                </li>
-                <li>
-                  <a href="" >Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="" ">Cookies</a>
-                </li>
-                <li>
-                  <a href="" >Do Not Sell My Personal Information</a>
-                </li>
-                <li>
-                  <span>Cookies Settings</span>
-                </li>
+            <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Zeus future package</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Up to 50+ Unlimited features linked with Zeus augmented reality</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Updates on the latest softwares</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Warranty</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Returns</li>
+              <li class="mb-3">
+                <i class="fa fa-check mr-2 text-primary"></i>Monthly customer service with our employees</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i>Access to Olympus Rewards</li>
               </ul>
-            </div>
-            <div>
-              0lympus Techologies, logos, and other trademarks are trademarks. Other names or brands are trademarks of their respective owners.
-            </div>
+            <li<a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
           </div>
+        </div>
+        <!-- END -->
 
-      </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
-        <script defer src="JavaScript\index\app.js"></script><script src="JavaScript\index\navShade.js"></script>
-    </body>
+    </div>
+  </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- Contact Us Bar - Devon Knight -->
+  <footer>
+    <h1 style="text-align:center" class="contact-title">Contact Us</h1> 
+    <ul class="contact-us">
+      <ul>
+        <li>
+          <a href="HTML\pricing.html">Get 0lympus</a>
+        </li>
+        <li>
+          <a href="HTML\roadmap.html">Our Future</a>
+        </li>
+        <li>
+          <a href="">Partners</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="">info@0lympus.com</a>
+        </li>
+        <li>
+          <a href="">1-800-111-1111</a>
+        </li>
+        <li>
+          <a href="HTML\faq.html">FAQ</a>
+        </li>
+      </ul>
+        <ul>
+          <li>
+            <a href="index.html">Our Company</a>
+          </li>
+          <li>
+            <a href="HTML\team.html">Our Team</a>
+          </li>
+          <li>
+            <a href="">Careers</a>
+          </li>
+        </ul>
+      </ul>
+    <!-- Copyright Bar - Devon Knight -->
+    <div class="copyright">
+      <div>Copyright © 2022 0lympus Technologies</div>
+        <div >   
+          <ul class="copyright-content">
+            <li>
+              <a href="" >Legal</a>
+            </li>
+            <li>
+              <a href="" >Privacy Policy</a>
+            </li>
+            <li>
+              <a href="" ">Cookies</a>
+            </li>
+            <li>
+              <a href="" >Do Not Sell My Personal Information</a>
+            </li>
+            <li>
+              <span>Cookies Settings</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          0lympus Technologies, logos, and other trademarks are trademarks. Other names or brands are trademarks of their respective owners.
+        </div>
+      </div>
+  </footer>
+  
+  <!-- End of main content Devon Knight -->
+  <!-- scripts Devon Knight -->
+  <script defer src="../JavaScript\index\app.js"></script>
+  <script src="../JavaScript\index\navShade.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+  <script src="../JavaScript\index\app.js"></script>
+  <script src="../JavaScript\index\navShade.js"></script>
+</body>
 </html>
