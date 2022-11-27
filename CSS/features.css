@@ -1,13 +1,5 @@
-.navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.7) !important;
-    color: rgba(255, 255, 255, 1) !important;
-}
-  
-.navbar-light .navbar-nav .nav-link{
-    color: white;
-    font-size: 22px;
-}
 
+/* General structure */
 body {
     background-color: black;
     color: white;
@@ -17,6 +9,33 @@ body, html {
     height: 100%;
 }
 
+/* Buttons */
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(20,20,20, 0.5);
+    color: #fff;
+    font-size: 15px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition-property: transform, box-shadow, -webkit-text-stroke, background-color;
+    transition-duration: 0.5s;
+}
+
+.button a:hover{
+    -webkit-text-stroke: 1px white;
+    transform: scale(1.1);
+    background-color: rgba(79, 195, 247, 0.7);
+    box-shadow: 
+    0 3px 5px 0 
+    rgba(79, 195, 247, 2), 
+    0 3px 30px 0 
+    rgba(79, 195, 247, 2);
+}
+
+/* Hero Section */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/pictures/mri-scan.jpg");
     height: 100%;
@@ -34,3 +53,5 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/* Features */
