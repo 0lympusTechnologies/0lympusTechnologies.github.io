@@ -1,0 +1,43 @@
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+.fs-1{
+  font-size: 100px !important;
+}
+
+#pricing{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-lg-4{
+  width: 320px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .col-lg-4{
+    width: 320px;
+    margin-left: 12vw;
+  }
+}
+
+body {
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  color: #4b4b64;
+  min-height: 100vh;
+}
