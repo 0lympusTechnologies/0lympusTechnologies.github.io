@@ -54,7 +54,45 @@ body, html {
     color: white;
 }
 
+.hero-heading {
+    font-size: 100px;
+    padding-bottom: 30px;
+    color: white;
+}
+
 /* Features */
+.main-content {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: dimgrey;
+    overflow: hidden;
+}
+.main-content section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.custom-shape-divider-top {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background: black;
+}
+.custom-shape-divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 100px;
+}
+.custom-shape-divider-top .shape-fill{
+    fill:rgb(24, 64, 110);
+}
+
+.overview {
+    text-align: center;
+}
 
 /* Footer - workaround to remove bullet points */
 ul.no-bp{
