@@ -1,48 +1,31 @@
 /* Animations - Devon Knight */
-.cont{
-  background-color: #131313;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-.cont section{
-  display: grid;
-  place-items: center;
-  align-content: center;
-  padding-top: 50vh;
-  padding-bottom: 50vh;
-}
-
-
-
+/* Animation Slide from Right start hidden- Devon Knight */
 .from-right{
   opacity: 0;
   filter: blur(5px);
   transform: translate(100%);
   transition: all 1.5s;
 }
+/* Animation Slide from Right end by showing content - Devon Knight */
 .from-right-show{
   opacity: 1;
   filter: blur(0);
   transform: translate(0);
 }
-
-
-
+/* Animation Slide from Left start hidden - Devon Knight */
 .from-left{
   opacity: 0;
   filter: blur(5px);
   transform: translate(-100%);
   transition: all 1.5s;
 }
+/* Animation Slide from Left end by showing content - Devon Knight */
 .from-left-show{
   opacity: 1;
   filter: blur(0);
   transform: translate(0);
 }
-
-/* bug -> does not stop motion for animations */
+/* if user's preferences are set to reduced motion - Devon Knight*/
 @media (prefers-reduced-motion){
   .from-right{
     transition: none;
@@ -51,8 +34,7 @@
     transition: none;
   }
 }
-
-/* for partner logos to animate in */
+/* for partner logos to animate in - Devon Knight*/
 .partners{
   display: flex;
   margin: 0 0.5rem;
@@ -72,7 +54,7 @@
 .partner:nth-child(4){
   transition-delay: 300ms;
 }
-
+/* Partner logos adaptive to display size - Devon Knight*/
 @media only screen and (max-width: 1080px) {
   /* For mobile phones: */
   .partners img{

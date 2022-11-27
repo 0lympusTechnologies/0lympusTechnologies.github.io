@@ -1,4 +1,5 @@
 /* Contact us section - Devon Knight */
+/* Contact us Title - Devon Knight */
 .contact-title{
   margin: 0;
   padding-top: 5vw;
@@ -18,11 +19,13 @@
   align-items: center;
   justify-content: center;
 }
+/* Contact Us Button Spacing - Devon Knight */
 .contact-us ul{
   padding-left: 5vw;
   padding-right: 5vw; 
   list-style-type: none; /* Remove bullets - Devon Knight*/
 }
+/* Contact Us Button Styling - Devon Knight */
 .contact-us a{
   color: white;
   text-decoration: none;
@@ -34,6 +37,7 @@
   transition-property: transform, box-shadow, -webkit-text-stroke, background-color;
   transition-duration: 0.5s;
 }
+/* Contact Us Button Responsive - Devon Knight */
 .contact-us a:hover{
   -webkit-text-stroke: 1px white;
   transform: scale(1.1);
@@ -44,7 +48,7 @@
   0 3px 30px 0 
   rgba(79, 195, 247, 2);
 }
-
+/* Contact Us Button Adaptive ot display size - Devon Knight */
 @media only screen and (max-width: 1080px) {
   /* For mobile phones - Devon Knight */
   .contact-us{
@@ -83,7 +87,6 @@
     rgba(79, 195, 247, 2);
   }
 }
-
 /* Copyright Section - Devon Knight */
 .copyright{
   background-color: black;

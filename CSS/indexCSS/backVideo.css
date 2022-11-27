@@ -1,7 +1,4 @@
-/* Video content style - Devon Knight */
-body{
-  overflow-x: hidden;
-}
+/* Hero Video content style - Devon Knight */
 /* Video placed in background - Devon Knight */
 .back-video{
   position: absolute;
@@ -14,14 +11,14 @@ body{
     height: auto;
   }
 }
+/* Video aspect ratio on different screen sizes - Devon Knight */
 @media (max-aspect-ratio: 16/9){
   .back-video{
     width: auto;
     height: 100%;
   }
 }
-
-/* overlayed content - Devon Knight */
+/* Filter on video Hero - Devon Knight */
 .video-front-content{
   width: 100%;
   height:  100vh;
@@ -37,17 +34,19 @@ body{
   overflow-x: hidden;
   overflow-y: hidden;
 }
+/* place content on top of video Hero - Devon Knight */
 .content{
   z-index: 1;
   text-align: center;
 }
+/* Title card opn top of Video Hero - Devon Knight */
 .content h1{
   font-size:  100px;
   color: #fff;
   font-weight: 600;
   transition:  0.3s;
 }
-/* buttons - Devon Knight */
+/* buttons on top of Video hero- Devon Knight */
 .content a{
   text-decoration: none;
   display: inline-block;
@@ -61,6 +60,7 @@ body{
   transition-property: transform, box-shadow, -webkit-text-stroke, background-color;
   transition-duration: 0.5s;
 }
+/* button responsive on top of Video hero- Devon Knight */
 .content a:hover{
   -webkit-text-stroke: 1px white;
   transform: scale(1.1);
