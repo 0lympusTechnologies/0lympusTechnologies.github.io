@@ -1,47 +1,52 @@
-/* CSS for idnex Devon Knight*/
+/* CSS for index - Devon Knight */
+/* remove all horizontal overflow - Devon Knight */
+body{
+  overflow-x: hidden;
+}
+/* main content below hero - Devon Knight */
 .main-content{
-  font-family: 'Roboto', sans-serif;
   color: white;
-  background-color: dimgrey;
+  background-color: dimgrey; /* Not needed, but if Bootstrap were to fail, it allows text to be seen - Devon Knight */
   overflow: hidden;
 }
+/* Background classes - Devon Knight*/
 .grey{
   background: darkgray;
 }
+/* Background classes - Devon Knight*/
 .off_white{
   background: whitesmoke;
 }
-
+/* Divider under Hero - Devon Knight */
 .custom-shape-divider-top-1667151416 {
   width: 100%;
   overflow: hidden;
   line-height: 0;
   background: black;
 }
+/* Divider under Hero - Devon Knight */
 .custom-shape-divider-top-1667151416 svg {
   position: relative;
   display: block;
   width: calc(148% + 1.3px);
   height: 85px;
 }
+/* Divider under Hero - Devon Knight */
 .custom-shape-divider-top-1667151416 .shape-fill {
   fill: #18406E;
 }
-
 /* text style- Devon Knight */
 .text{
   background-color: lightgray;
   color: black;
 }
-
 /* all main homepage content formats in sections - Devon Knight */
 .main-content section{
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   padding-left: 5vw;
   padding-right: 5vw;
 }
-
 /* CSS animations for content - Devon Knight */
 /* left-side image + right-side text - Devon Knight */
 .L-text-R-img{
@@ -58,11 +63,11 @@
 .L-text-R-img img{
   display: block;
   align-items: right;
-  min-width: 25vw;
+  min-width: 25vh;
   max-width: 40vw;
-  max-height: auto;
+  max-height: 25rem;
 }
-
+/* Mobile adaptive breakpoint for left-side image + right-side text*/
 @media only screen and (max-width: 1080px) {
   /* For mobile phones: */
   .L-text-R-img{
@@ -71,26 +76,20 @@
     padding-left: 5px;
   }
   .L-text-R-img p{
-    font-size: small;
     padding-right: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .L-text-R-img img{
-    display: block;
+    margin-left: 20vw;
     align-items: right;
-    min-width: 75vw;
+    min-width: 50vw;
     max-width: 25vw;
     min-height: 50vw;
-    max-height: 100vw;
+    max-height: 50vw;
   }
 }
-
-
-
-
-
 /* left-side text + right-side image - Devon Knight */
 .from-left h1{
   text-align:right; 
@@ -110,11 +109,10 @@
 .R-text-L-img img{
   display: block;
   align-items: left;
-  min-width: 20%;
-  max-width: 100%;
-  height: auto;
+  min-width: 220px;
+  min-height: 200px;
 }
-
+/* Mobile adaptive breakpoint for left-side text + right-side image*/
 @media only screen and (max-width: 1080px) {
   /* For mobile phones: */
   .from-left h1{
@@ -129,15 +127,14 @@
     padding-left: 5px;
   }
   .R-text-L-img p{
-    font-size: small;
     padding-right: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .R-text-L-img img{
-    margin-left: 25vw;
-    align-items: right;
+    margin-left: 30vw;
+    align-items: center;
     min-width: 25vw;
     max-width: 25vw;
     min-height: 25vw;

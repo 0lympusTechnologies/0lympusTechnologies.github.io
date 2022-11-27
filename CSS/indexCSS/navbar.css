@@ -1,100 +1,10 @@
-/* CSS File redone by Devon Knight */
-/*
-.navbar{
-  height:80px;
-  display: flex;
-  font-size: 1.5rem;
-  background-color:#000000;
-  text-decoration: none;
-  align-items: center;
-  margin:0;
-}
-.navbar-container{
-  height: 80px;
-  width: 100%;
-  padding: 0 30px;
-  display: flex;
-  justify-content: space-between;
-}
-.navbar-container .nav-logo {
-  flex:1;
-}
-.navbar-container .nav-logo a{
-  display: flex;
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 2em;
-  margin: 5px;
-  font-family: "Futura";
-}
-.navbar-container #company-logo {
-  width: 60px;
-  filter: invert(54%) sepia(83%) saturate(1494%) hue-rotate(154deg) brightness(104%) contrast(106%);
-}
-.navbar-container .navbar-menu {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding: 0 50px;
-  font-family: "Futura Lt BT";
-}
-.navbar-container .navbar-item {
-  height: 80px;
-  padding: 0 2em;
-}
-.navbar-menu .navbar-links {
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  padding-top: 1em;
-}
-.navbar-menu .navbar-links:hover {
-  color:#00CCFF ;
-}
-
-
-/*
-/* keep navbar with scrolling 
-.navbar {
-  z-index: 99;
-  background: transparent;
-  position: fixed; 
-  top: 0; 
-  width: 100%; 
-}
-/* Links inside the navbar 
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-} */
-/* Change background on mouse-over 
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-  -webkit-text-stroke: .7px whitesmoke;
-  -webkit-text-fill-color: whitesmoke;
-  color: transparent;
-  background-color: rgba(79, 195, 247, 0.3);
-  box-shadow: 
-  0 3px 5px 0 
-  rgba(79, 195, 247, 5), 
-  0 3px 30px 0 
-  rgba(79, 195, 247, 5);
-}*/
-
+/* CSS File refactored by Devon Knight */
 /* CSS for Homepage Nav-bar - Devon Knight */
 .navbar-toggler{
   background-color: rgba(255, 255, 255, 0.7) !important;
   color: rgba(255, 255, 255, 1) !important;
 }
+/* CSS for Homepage Nav-bar - Devon Knight */
 .navbar-light .navbar-nav .nav-link{
   color: white;
   font-size: 22px;
@@ -103,19 +13,23 @@
   color: white;
   font-size: 30px;
 }
+/* Nav Bar responsive - Devon Knight */
 .navbar-brand:hover{
   -webkit-text-stroke: .7px rgb(79, 195, 247) !important;
   -webkit-text-fill-color: rgb(79, 195, 247) !important;
 }
+/* Nav Bar responsive to current page - Devon Knight */
 .navbar-nav > li > a:hover, 
 .navbar-nav > li > a:focus {
   -webkit-text-stroke: .7px rgb(79, 195, 247) !important;
   -webkit-text-fill-color: rgb(79, 195, 247) !important;
 }
+/* Nav Bar company logo size - Devon Knight */
 .navbar-container #company-logo {
   width: 60px;
   filter: invert(54%) sepia(83%) saturate(1494%) hue-rotate(154deg) brightness(104%) contrast(106%);
 }
+/* Nav Bar Responsive to scrolling - Devon Knight */
 .navbar{
   transition-property: background-color;
   transition-duration: 1s;
