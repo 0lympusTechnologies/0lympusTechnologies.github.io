@@ -38,8 +38,8 @@
 .main-content section{
   padding-top: 10vh;
   padding-bottom: 10vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 /* CSS animations for content - Devon Knight */
@@ -49,6 +49,7 @@
   padding-left: 5px;
 }
 .L-text-R-img p{
+  font-size: large;
   padding-right: 5px;
   display: flex;
   align-items: center;
@@ -57,16 +58,50 @@
 .L-text-R-img img{
   display: block;
   align-items: right;
-  min-width: 20%;
-  max-width: 100%;
-  height: auto;
+  min-width: 25vw;
+  max-width: 40vw;
+  max-height: auto;
 }
+
+@media only screen and (max-width: 1080px) {
+  /* For mobile phones: */
+  .L-text-R-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+  }
+  .L-text-R-img p{
+    font-size: small;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .L-text-R-img img{
+    display: block;
+    align-items: right;
+    min-width: 75vw;
+    max-width: 25vw;
+    min-height: 50vw;
+    max-height: 100vw;
+  }
+}
+
+
+
+
+
 /* left-side text + right-side image - Devon Knight */
+.from-left h1{
+  text-align:right; 
+  padding-right: 3px;
+}
 .R-text-L-img{
   display: flex;
   padding-right: 5px;
 }
 .R-text-L-img p{
+  font-size: large;
   padding-left: 5px;
   display: flex;
   align-items: center;
@@ -80,3 +115,32 @@
   height: auto;
 }
 
+@media only screen and (max-width: 1080px) {
+  /* For mobile phones: */
+  .from-left h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 3px;
+  }
+  .R-text-L-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+  }
+  .R-text-L-img p{
+    font-size: small;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .R-text-L-img img{
+    margin-left: 25vw;
+    align-items: right;
+    min-width: 25vw;
+    max-width: 25vw;
+    min-height: 25vw;
+    max-height: 25vw;
+  }
+}
