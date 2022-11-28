@@ -63,7 +63,7 @@ body{
 .L-text-R-img img{
   display: block;
   align-items: right;
-  min-width: 25vh;
+  min-width: 30vh;
   max-width: 40vw;
   max-height: 25rem;
 }
