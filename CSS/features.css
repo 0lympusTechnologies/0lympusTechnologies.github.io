@@ -1,6 +1,7 @@
 
 /* General structure */
 body {
+    overflow-x: hidden;
     background-color: black;
     color: white;
 }
@@ -74,6 +75,7 @@ body, html {
     padding-right: 10vw;
 }
 
+/* Divider after Hero Section */
 .custom-shape-divider-top {
     width: 100%;
     overflow: hidden;
@@ -90,12 +92,24 @@ body, html {
     fill:rgb(24, 64, 110);
 }
 
-.overview {
-    text-align: center;
+/* Left text Right image sections */
+.L-text-R-img {
+    display: flex;
+    padding-left: 5px;
 }
-
-.feature-title {
-    text-align: center;
+.L-text-R-img p{
+    font-size: large;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.L-text-R-img img{
+    display: block;
+    align-items: right;
+    min-width: 30vh;
+    max-width: 40vw;
+    max-height: 25rem;
 }
 
 /* @media only screen and (max-width: 600px) {
