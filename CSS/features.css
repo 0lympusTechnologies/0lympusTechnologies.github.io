@@ -94,6 +94,16 @@ body, html {
     text-align: center;
 }
 
+.feature-title {
+    text-align: center;
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+} */
+
 /* Footer - workaround to remove bullet points */
 ul.no-bp{
     list-style-type: none; /* Remove bullets */
