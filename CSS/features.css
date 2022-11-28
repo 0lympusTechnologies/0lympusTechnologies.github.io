@@ -112,11 +112,28 @@ body, html {
     max-height: 25rem;
 }
 
-/* @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+/* Mobile adaptive breakpoint for left-side text + right-side image */
+@media only screen and (max-width: 1080px) {
+    /* For mobile phones: */
+    .L-text-R-img{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5px;
+        align-items: center;
+        justify-content: center;
     }
-} */
+    .L-text-R-img p{
+        padding-right: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    .L-text-R-img img{
+        min-width: 50vw;
+        max-width: 70vw;
+        min-height: 50vw;
+        max-height: 70vw;
+    }
+}
 
 /* Footer - workaround to remove bullet points */
 ul.no-bp{
