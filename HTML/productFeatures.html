@@ -4,6 +4,7 @@
     <!-- To list out all available classes loaded in HTML, type the following in the console
         [].concat(...[...document.querySelectorAll('*')].map(e=>[...e.classList])).filter((d,i,a)=>a.indexOf(d)==i).sort()
     -->
+    <!-- Basic properties -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- This bootstrap CSS file must be loaded before loading any internal CSS files, worst mistake of my life -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
     <!-- External JS Files -->
@@ -123,15 +123,17 @@
                     <a href=".\roadmap.html">Our Future</a>
                 </li>
                 <li>
-                    <a href="#">Partners</a>
+                    <a href="..\index.html#partners">Partners</a>
                 </li>
             </ul>
             <ul class="no-bp">
                 <li>
-                    <a href="#">info@0lympus.com</a>
+                    <a href="mailto:info@0lympus.com?subject=The title&body=The message">
+                        <button id="btnOutlook">info@0lympus.com</button>
+                    </a>
                 </li>
                 <li>
-                    <a href="#">1-800-111-1111</a>
+                    <a href="tel:123-456-7890">Call Us! 123-456-7890</a>
                 </li>
                 <li>
                     <a href=".\faq.html">FAQ</a>
@@ -139,13 +141,10 @@
             </ul>
             <ul class="no-bp">
                 <li>
-                    <a href="..\index.html">Our Company</a>
+                    <a href="..\index.html#company">Our Company</a>
                 </li>
                 <li>
                     <a href=".\team.html">Our Team</a>
-                </li>
-                <li>
-                    <a href="#">Careers</a>
                 </li>
             </ul>
         </ul>
