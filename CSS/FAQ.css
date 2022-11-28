@@ -26,6 +26,9 @@
     position: relative;
     
 }
+.fs-1{
+  font-size: 100px !important;
+}
 
 h1 {
     position: static;
