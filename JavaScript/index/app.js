@@ -5,14 +5,18 @@ const observer = new IntersectionObserver((entries) => {
     if (element.isIntersecting) {
       element.target.classList.add('from-right-show');
     }
-    /* will restart the animation whenever use does nto view element
+    /* 
+    If needed:
+    will restart the animation whenever use does not view element
     else {
       element.target.classList.remove('from-right-show');
     }*/
     if (element.isIntersecting) {
       element.target.classList.add('from-left-show');
     }
-    /* will restart the animation whenever use does nto view element
+    /* 
+    If needed:
+    will restart the animation whenever use does not view element
     else {
       element.target.classList.remove('from-left-show');
     }*/
@@ -23,9 +27,9 @@ const observer = new IntersectionObserver((entries) => {
 const animateFromRight = document.querySelectorAll('.from-right');
 const animateFromLeft  = document.querySelectorAll('.from-left');
 
-// call the observer function to observe if the element is int he window and change class
+// call the observer function to observe if the element is in the window and change class
 animateFromRight.forEach((element) =>
   observer.observe(element));
-// call the observer function to observe if the element is int he window and change class
+// call the observer function to observe if the element is in the window and change class
 animateFromLeft.forEach((element) =>
     observer.observe(element));
