@@ -14,6 +14,7 @@ body{
 .rotate_img{
     transform: rotate(90deg);
 }
+
 nav .navbar-nav li a:hover{
     color: rgb(79, 195, 247) !important;
 }
