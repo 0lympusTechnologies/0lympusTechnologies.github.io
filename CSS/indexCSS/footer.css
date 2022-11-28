@@ -48,6 +48,16 @@
   0 3px 30px 0 
   rgba(79, 195, 247, 2);
 }
+/* mail to button */
+.contact-us a > button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
 /* Contact Us Button Adaptive ot display size - Devon Knight */
 @media only screen and (max-width: 1080px) {
   /* For mobile phones - Devon Knight */
